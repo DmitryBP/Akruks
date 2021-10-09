@@ -1,0 +1,165 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 2px solid #686868;
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 30px 60px;
+  z-index: 1;
+}
+.flex-horizont {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  width: 250px;
+}
+
+.logo__img {
+  border-right: 3px solid #fff;
+  padding-right: 75px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 45px;
+  height: 45px;
+  background-image: url(img/Ellipse.svg);
+  background-repeat: no-repeat;
+}
+
+.logo-text {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* line-height: 50px; */
+  margin-left: 35px;
+  text-transform: uppercase;
+}
+
+.phone-and-messanger-wrp {
+  display: flex;
+}
+.messenger {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.messenger__item {
+  width: 25px;
+  height: 25px;
+}
+
+.messenger__item:not(:last-child) {
+  margin-right: 10px;
+}
+.whatsapp {
+  background-image: url(img/whatsapp.svg);
+}
+
+.viber {
+  background-image: url(img/viber.svg);
+}
+
+.telegram {
+  background-image: url(img/telegram.svg);
+}
+
+.phone-number {
+  font-size: 24px;
+}
+
+.work-time {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.first-display {
+    color: #fff;
+    background-image: url(/img/Borrning_1.jpg);
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    background-color: #000;
+
+}
+.first-display::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* <!-- Компонент site-navigation (навигация по сайту) --> */
+.site-navigation {
+    margin-left: auto;
+  display: flex;
+  justify-content:flex-end;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+.site-navigation__item {
+  margin-left: 90px;
+}
+.site-navigation__link {
+  text-decoration: none;
+  color: #fff;
+}
+.site-navigation__link--active {
+  color: #c05e37;
+}
+.content-wrp {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+
+}
+.offer-grup {
+    width: 950px;
+
+}
+.first-display__title {
+    margin-bottom: 50px;
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: normal;
+}
+.first-display__description {
+    margin-bottom: 180px;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: normal;
+}
+.first-display__wirks-list {
+    list-style: none;
+    width: 400px;
+}
+.first-display__work-list__item {
+}
+.offer-form {
+    border: 1px solid greenyellow;
+}
