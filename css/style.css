@@ -71,15 +71,15 @@ body {
   margin-right: 10px;
 }
 .whatsapp {
-  background-image: url(img/whatsapp.svg);
+  background-image: url(/img/whatsapp.svg);
 }
 
 .viber {
-  background-image: url(img/viber.svg);
+  background-image: url(/img/viber.svg);
 }
 
 .telegram {
-  background-image: url(img/telegram.svg);
+  background-image: url(/img/telegram.svg);
 }
 
 .phone-number {
@@ -87,7 +87,7 @@ body {
 }
 
 .work-time {
-  font-size: 14px;
+  font-size: 14px
   font-weight: 300;
   text-align: right;
   margin-top: 10px;
