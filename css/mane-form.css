@@ -1,0 +1,53 @@
+/* @import url(/css/style.css);
+
+.container {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+} */
+
+.mane-form {
+  width: 350px;
+  border: 1px solid #817d7d;
+  background-color: rgba(199, 195, 195, 0.2);
+  border-radius: 16px;
+  padding: 50px 28px;
+  text-align: center;
+}
+
+.main-form__title {
+  font-size: 21px;
+  line-height: 26px;
+  margin-bottom: 80px;
+  color: #fff;
+}
+
+.main-form__input {
+  width: 270px;
+  background-color: rgba(199, 195, 195, 0);
+  border: none;
+  border-bottom: 1px solid #817d7d;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.input_mb30 {
+  margin-bottom: 30px;
+}
+
+.input_mb50 {
+  margin-bottom: 50px;
+}
+
+.main-form__tel {
+  width: 100%;
+  background-color: rgba(199, 195, 195, 20);
+}
+
+/* .main-form__input::-webkit-input-placeholder { 
+
+ } */

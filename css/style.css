@@ -1,7 +1,9 @@
+@import url(/css/botton.css);
+@import url(/css/mane-form.css);
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  border: 1px solid #000;
 }
 * {
   margin: 0;
@@ -17,11 +19,40 @@ body {
 
 .wrapper {
   position: relative;
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
   padding: 30px 60px;
   z-index: 1;
+  border: 1px solid rgb(119, 218, 7);
+  
 }
+
+.first-display {
+  position: relative;
+  border: 1px solid red;
+  color: #fff;
+  background-image: url(/img/Borrning_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 40%;
+  background-color: #000;
+
+
+}
+.first-display::after {
+content: "";
+background-color: rgba(0, 0, 0, 0.6);
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+border: 1px solid blue;
+
+}
+
 .flex-horizont {
   display: flex;
   justify-content: space-between;
@@ -38,7 +69,7 @@ body {
   margin-bottom: auto;
   width: 45px;
   height: 45px;
-  background-image: url(img/Ellipse.svg);
+  background-image: url(/img/Ellipse.svg);
   background-repeat: no-repeat;
 }
 
@@ -56,6 +87,7 @@ body {
 .phone-and-messanger-wrp {
   display: flex;
 }
+
 .messenger {
   display: flex;
   list-style: none;
@@ -93,25 +125,7 @@ body {
   margin-top: 10px;
 }
 
-.first-display {
-    color: #fff;
-    background-image: url(/img/Borrning_1.jpg);
-    background-clip: padding-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 0;
-    background-color: #000;
 
-}
-.first-display::after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
 
 /* <!-- Компонент site-navigation (навигация по сайту) --> */
 .site-navigation {
@@ -136,6 +150,7 @@ body {
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
+    justify-content: space-between;
 
 }
 .offer-grup {
@@ -162,4 +177,12 @@ body {
 }
 .offer-form {
     border: 1px solid greenyellow;
+  padding-top: 100px;
+  margin-left: 20px;
+}
+
+.test {
+  height: 500px;
+  width: 100%;
+  border: 1px solid #000;
 }
