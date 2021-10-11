@@ -23,40 +23,34 @@ body {
   margin: 0 auto;
   padding: 30px 60px;
   z-index: 1;
-  border: 1px solid rgb(119, 218, 7);
-  
 }
 
 .first-display {
   position: relative;
-  border: 1px solid red;
   color: #fff;
   background-image: url(/img/Borrning_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 40%;
   background-color: #000;
-
-
 }
 .first-display::after {
-content: "";
-background-color: rgba(0, 0, 0, 0.6);
-position: absolute;
-width: 100%;
-height: 100%;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-border: 1px solid blue;
-
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .flex-horizont {
   display: flex;
   justify-content: space-between;
 }
+/* //////////////////////////////////-ЛОГО */
 .logo {
   display: flex;
   width: 250px;
@@ -83,7 +77,7 @@ border: 1px solid blue;
   margin-left: 35px;
   text-transform: uppercase;
 }
-
+/* //////////////////////////////////-МЕССЕНДЖЕРЫ */
 .phone-and-messanger-wrp {
   display: flex;
 }
@@ -125,64 +119,73 @@ border: 1px solid blue;
   margin-top: 10px;
 }
 
-
-
-/* <!-- Компонент site-navigation (навигация по сайту) --> */
+/* //////////////////////////////////-ГЛАВНОЕ МЕНЮ */
 .site-navigation {
-    margin-left: auto;
+  margin-left: auto;
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   list-style: none;
   font-size: 14px;
   font-weight: 300;
 }
+
 .site-navigation__item {
   margin-left: 90px;
 }
+
 .site-navigation__link {
   text-decoration: none;
   color: #fff;
 }
+
 .site-navigation__link--active {
   color: #c05e37;
 }
+
 .content-wrp {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    display: flex;
-    justify-content: space-between;
-
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
 }
+
 .offer-grup {
-    width: 950px;
+  width: 950px;
+}
 
-}
 .first-display__title {
-    margin-bottom: 50px;
-    font-size: 52px;
-    line-height: 60px;
-    font-weight: normal;
+  margin-bottom: 50px;
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: normal;
 }
+
 .first-display__description {
-    margin-bottom: 180px;
-    font-size: 40px;
-    line-height: 60px;
-    font-weight: normal;
+  margin-bottom: 180px;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: normal;
 }
-.first-display__wirks-list {
-    list-style: none;
-    width: 400px;
+
+.first-display__works-list {
+  position: absolute;
+  bottom: 80px;
+  margin-top: auto;
+  list-style: none;
+  width: 400px;
 }
-.first-display__work-list__item {
+
+.first-display__item {
+  font-weight: lighter;
+  font-size: 18px;
 }
+
+.first-display__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
 .offer-form {
-    border: 1px solid greenyellow;
   padding-top: 100px;
   margin-left: 20px;
-}
-
-.test {
-  height: 500px;
-  width: 100%;
-  border: 1px solid #000;
 }
