@@ -1,3 +1,6 @@
+
+/* //////////////////////////////////////////////Служебный код */
+
 @import url(/css/style.css);
 
 .container {
@@ -6,30 +9,63 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;}
+  height: 500px;
+}
 
+  .container--ferst {
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+/* //////////////////////////////////////////////Рабочий код */
 
 .table {
   border: 1px solid #9E9E9E;
-
-  /* border-collapse: collapse; */
+  width: 530px;
   border-spacing: 0px;
   border-radius: 13px;
 }
+
+.table--four-row {
+  width: 755px;
+}
+
 .table__caption {
   text-align: right;
-  font-weight: bold;
+  font-weight:normal;
   font-size: 18px;
-  margin-bottom: 20px;
-
+  margin-bottom: 15px;
 }
-.table__head-cell-left {
-  /* width: 100%; */
+
+.table__caption-text {
+  font-weight:lighter;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.table__head-cell {
   padding: 10px;
   background-color: #585858;
   color:#fff;
-  border-radius: 13px 0 0 0;
   height: 30px;
+  font-weight: normal;
+}
+
+.table__measure-unit {
+  font-weight:100;
+  font-size: 14px;
+}
+
+.table__head-cell--align-left {
+  text-align: left;
+}
+.table__head-cell--left {
+  border-radius: 13px 0 0 0;
+}
+
+.table__head-cell--right {
+  border-radius: 0 13px  0 0;
 }
 .table__string {
 color:#000
@@ -38,6 +74,12 @@ color:#000
 .table__item {
   padding: 10px;
   border-bottom: 1px solid #C05E37;
+}
 
+.table__item--align-center {
+  text-align: center;
+}
 
+.table__item--last-string {
+  border:none;
 }

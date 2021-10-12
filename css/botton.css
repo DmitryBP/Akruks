@@ -22,3 +22,13 @@
 .button:hover {
 background-color: rgb(129, 125, 125);
 }
+
+.button--akcent {
+  background-color:#C05E37;
+  width: 350px;
+}
+
+.button--akcent:hover{
+  background-color:#C05E37;
+  color: #000;
+}
