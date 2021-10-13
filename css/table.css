@@ -22,13 +22,15 @@
 
 .table {
   border: 1px solid #9E9E9E;
-  width: 530px;
+  /* width: 530px; */
+  width: 95%;
   border-spacing: 0px;
   border-radius: 13px;
 }
 
 .table--four-row {
-  width: 755px;
+  /* width: 755px; */
+  width: 100%;
 }
 
 .table__caption {
