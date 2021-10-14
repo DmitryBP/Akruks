@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -76,9 +76,9 @@
         </div>
       </section>
 <!-- /* ////////////////////////////////////////////-СЕКЦИЯ ЦЕНЫ НА БУРЕНИЕ*/ -->
-      <section class="prise wrapper">
+      <section class="prise prise__wripper">
           <h2 class="prise__title">Цены на бурение отверстий и устройство проемов</h2>
-          <div class="flex-horizont">
+          <div class="prise__teble-wrp flex-horizont">
             <!-- ///////////////////////////////-ЛЕВЫЙ РЯД -->
             <div class="prise__row">
               <div class="requirements">
@@ -115,42 +115,44 @@
                       <td class="table__item table__item--last-string table__item--align-center">10% от договора</td>
                     </tr>
               </table>
-            <!-- ///////////////////////////////-ТАБЛИЦА 3 -->
-              <table class="table">
-                <caption class="table__caption">Таблица 3</caption>
-                <tr class="table_head">
-                  <th class="table__head-cell table__head-cell--left table__head-cell--align-left">Фактор увеличения стоимости работ</th>
-                  <th class="table__head-cell table__head-cell--right">Коэф-т</th>
-                </tr>
-                  <tr class="table__string">
-                    <td class="table__item">Сверление на высоте выше 2 метров</td>
-                    <td class="table__item table__item--align-center">1.4</td>
+              <div class="prise__row-ittem">
+                <!-- ///////////////////////////////-ТАБЛИЦА 3 -->
+                <table class="table">
+                  <caption class="table__caption">Таблица 3</caption>
+                  <tr class="table_head">
+                    <th class="table__head-cell table__head-cell--left table__head-cell--align-left">Фактор увеличения стоимости работ</th>
+                    <th class="table__head-cell table__head-cell--right">Коэф-т</th>
                   </tr>
-                  <tr class="table__string">
-                    <td class="table__item">Сверление на глубину более 700 мм.</td>
-                    <td class="table__item table__item--align-center">2</td>
-                  </tr>
-                  <tr class="table__string">
-                    <td class="table__item">Сверление на глубину более 1000 мм.</td>
-                    <td class="table__item table__item--align-center">1.4</td>
-                  </tr>
-                  <tr class="table__string">
-                    <td class="table__item">Бурение под углом</td>
-                    <td class="table__item table__item--align-center">1.3</td>
-                  </tr>
-                  <tr class="table__string">
-                    <td class="table__item">Ночное время (20:00 - 8:00) и выходные дни</td>
-                    <td class="table__item table__item--align-center">2</td>
-                  </tr>
-                  <tr class="table__string">
-                    <td class="table__item">Бурение при температуре воздуха от 0 до -6 °C</td>
-                    <td class="table__item table__item--align-center">1.3</td>
-                  </tr>
-                  <tr class="table__string">
-                    <td class="table__item table__item--last-string">Труднодоступные места</td>
-                    <td class="table__item table__item--last-string table__item--align-center">1.3</td>
-                  </tr>
-              </table>
+                    <tr class="table__string">
+                      <td class="table__item">Сверление на высоте выше 2 метров</td>
+                      <td class="table__item table__item--align-center">1.4</td>
+                    </tr>
+                    <tr class="table__string">
+                      <td class="table__item">Сверление на глубину более 700 мм.</td>
+                      <td class="table__item table__item--align-center">2</td>
+                    </tr>
+                    <tr class="table__string">
+                      <td class="table__item">Сверление на глубину более 1000 мм.</td>
+                      <td class="table__item table__item--align-center">1.4</td>
+                    </tr>
+                    <tr class="table__string">
+                      <td class="table__item">Бурение под углом</td>
+                      <td class="table__item table__item--align-center">1.3</td>
+                    </tr>
+                    <tr class="table__string">
+                      <td class="table__item">Ночное время (20:00 - 8:00) и выходные дни</td>
+                      <td class="table__item table__item--align-center">2</td>
+                    </tr>
+                    <tr class="table__string">
+                      <td class="table__item">Бурение при температуре воздуха от 0 до -6 °C</td>
+                      <td class="table__item table__item--align-center">1.3</td>
+                    </tr>
+                    <tr class="table__string">
+                      <td class="table__item table__item--last-string">Труднодоступные места</td>
+                      <td class="table__item table__item--last-string table__item--align-center">1.3</td>
+                    </tr>
+                </table>
+              </div>
             </div>
             <!-- ///////////////////////////////-ПРАВЫЙ РЯД -->
             <div class="prise__row--right">
@@ -272,7 +274,9 @@
               </table>
               </div>
             </div>
-            <button class="button button--akcent">Рассчитать стоимость</button>
+            <div class="prise__button-wrp">
+              <button class="button button--akcent">Рассчитать стоимость</button>
+            </div>
       </section>
   </body>
 </html>
