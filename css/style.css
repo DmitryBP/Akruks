@@ -210,15 +210,15 @@ body {
 }
 
 .prise__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 width: 40%;
+min-width: 435px;
 }
 
 .prise__row--right {
 width: 60%;
-}
-
-.prise__row-ittem {
-  padding-top: 26px;
 }
 
 .prise__button-wrp {
@@ -229,13 +229,13 @@ width: 60%;
 /* //////////////////////////////////-ТРЕБОВАНИЯ К ОБЪЕКТУ */
 .requirements {
 padding-left: 20px;  
-padding-bottom: 20px;
+/* padding-bottom: 20px; */
 }
 
 .requirements__title {
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   margin-left: -20px;
 }
 
