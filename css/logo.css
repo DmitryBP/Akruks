@@ -1,0 +1,28 @@
+/* //////////////////////////////////-ЛОГО */
+.logo {
+    display: flex;
+    width: 250px;
+  }
+  
+  .logo__img {
+    border-right: 3px solid #fff;
+    padding-right: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/Ellipse.svg);
+    background-repeat: no-repeat;
+  }
+  
+  .logo-text {
+    color: #fff;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* line-height: 50px; */
+    margin-left: 35px;
+    text-transform: uppercase;
+  }

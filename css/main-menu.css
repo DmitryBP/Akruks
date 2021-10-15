@@ -1,0 +1,70 @@
+/* //////////////////////////////////-ГЛАВНОЕ МЕНЮ */
+.site-navigation {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .site-navigation__item {
+    margin-left: 90px;
+  }
+  
+  .site-navigation__link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .site-navigation__link--active {
+    color: #c05e37;
+  }
+  
+  .content-wrp {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .offer-grup {
+    width: 950px;
+  }
+  
+  .first-display__title {
+    margin-bottom: 50px;
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: normal;
+  }
+  
+  .first-display__description {
+    margin-bottom: 180px;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: normal;
+  }
+  
+  .first-display__works-list {
+    position: absolute;
+    bottom: 80px;
+    margin-top: auto;
+    list-style: none;
+    width: 400px;
+  }
+  
+  .first-display__item {
+    font-weight: lighter;
+    font-size: 18px;
+  }
+  
+  .first-display__item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  
+  .offer-form {
+    padding-top: 100px;
+    margin-left: 20px;
+  }

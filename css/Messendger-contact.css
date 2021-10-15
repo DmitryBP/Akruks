@@ -1,0 +1,59 @@
+
+/* //////////////////////////////////////////////Служебный код */
+
+/* @import url(../css/style.css);
+
+.container {
+  margin: 5%;
+  background-color: #000;
+  border: 3px dashed rgba(0, 255, 85, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+} */
+
+/* //////////////////////////////////-МЕССЕНДЖЕРЫ */
+.phone-block {
+    color: #fff;
+}
+.phone-and-messanger-wrp {
+    display: flex;
+  }
+  
+  .messenger {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+  }
+  
+  .messenger__item {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .messenger__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .whatsapp {
+    background-image: url(../img/whatsapp.svg);
+  }
+  
+  .viber {
+    background-image: url(../img/viber.svg);
+  }
+  
+  .telegram {
+    background-image: url(../img/telegram.svg);
+  }
+  
+  .phone-number {
+    font-size: 24px;
+  }
+  
+  .work-time {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 10px;
+  }

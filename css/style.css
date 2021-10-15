@@ -1,6 +1,11 @@
+@import url(logo.css);
+@import url(Messendger-contact.css);
+@import url(main-menu.css);
 @import url(botton.css);
 @import url(mane-form.css);
 @import url(table.css);
+@import url(servise-navigation.css);
+@import url(adres.css);
 
 body {
   font-family: "Roboto", sans-serif;
@@ -12,9 +17,9 @@ body {
   box-sizing: border-box;
 }
 
+/* //////////////////////////////////- ПЕРВЫЙ ЭКРАН */
 .header {
   background-color: #000;
-  color: #fff;
   border-bottom: 2px solid #686868;
 }
 
@@ -54,145 +59,6 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* //////////////////////////////////-ЛОГО */
-.logo {
-  display: flex;
-  width: 250px;
-}
-
-.logo__img {
-  border-right: 3px solid #fff;
-  padding-right: 75px;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 45px;
-  height: 45px;
-  background-image: url(../img/Ellipse.svg);
-  background-repeat: no-repeat;
-}
-
-.logo-text {
-  display: inline-block;
-  font-size: 28px;
-  font-weight: bold;
-  margin-top: auto;
-  margin-bottom: auto;
-  /* line-height: 50px; */
-  margin-left: 35px;
-  text-transform: uppercase;
-}
-/* //////////////////////////////////-МЕССЕНДЖЕРЫ */
-.phone-and-messanger-wrp {
-  display: flex;
-}
-
-.messenger {
-  display: flex;
-  list-style: none;
-  margin-right: 30px;
-}
-
-.messenger__item {
-  width: 25px;
-  height: 25px;
-}
-
-.messenger__item:not(:last-child) {
-  margin-right: 10px;
-}
-.whatsapp {
-  background-image: url(../img/whatsapp.svg);
-}
-
-.viber {
-  background-image: url(../img/viber.svg);
-}
-
-.telegram {
-  background-image: url(../img/telegram.svg);
-}
-
-.phone-number {
-  font-size: 24px;
-}
-
-.work-time {
-  font-size: 14px;
-  font-weight: 300;
-  text-align: right;
-  margin-top: 10px;
-}
-
-/* //////////////////////////////////-ГЛАВНОЕ МЕНЮ */
-.site-navigation {
-  margin-left: auto;
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.site-navigation__item {
-  margin-left: 90px;
-}
-
-.site-navigation__link {
-  text-decoration: none;
-  color: #fff;
-}
-
-.site-navigation__link--active {
-  color: #c05e37;
-}
-
-.content-wrp {
-  position: relative;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.offer-grup {
-  width: 950px;
-}
-
-.first-display__title {
-  margin-bottom: 50px;
-  font-size: 52px;
-  line-height: 60px;
-  font-weight: normal;
-}
-
-.first-display__description {
-  margin-bottom: 180px;
-  font-size: 40px;
-  line-height: 60px;
-  font-weight: normal;
-}
-
-.first-display__works-list {
-  position: absolute;
-  bottom: 80px;
-  margin-top: auto;
-  list-style: none;
-  width: 400px;
-}
-
-.first-display__item {
-  font-weight: lighter;
-  font-size: 18px;
-}
-
-.first-display__item:not(:last-child) {
-  margin-bottom: 16px;
-}
-
-.offer-form {
-  padding-top: 100px;
-  margin-left: 20px;
-}
 
 /* //////////////////////////////////-ЭКРАН ЦЕНЫ НА БУРЕНИЕ */
 
@@ -226,7 +92,8 @@ width: 60%;
   text-align: center;
 }
 
-/* //////////////////////////////////-ТРЕБОВАНИЯ К ОБЪЕКТУ */
+/* ТРЕБОВАНИЯ К ОБЪЕКТУ */
+
 .requirements {
 padding-left: 20px;  
 /* padding-bottom: 20px; */
@@ -243,4 +110,32 @@ padding-left: 20px;
   line-height: 30px;
 }
 
+/* //////////////////////////////////- ФУТЕР */
 
+.footer {
+  background-color: #000;
+}
+
+.footer__wripper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 0 80px;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.footer__column {
+  border: 1px solid blue;
+}
+
+.footer__adres {
+}
+
+.footer__menu {
+}
+.footer__button {
+}
