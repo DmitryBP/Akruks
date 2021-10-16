@@ -46,3 +46,8 @@ margin-bottom: 16px;
 color: #C4C4C4;
 text-decoration: none;
 }
+
+.servise-navigation__link:hover {
+  color: #C05E37;
+  text-decoration:dashed;
+  }
