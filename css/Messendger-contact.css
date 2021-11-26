@@ -18,6 +18,7 @@
     color: #fff;
 }
 .phone-and-messanger-wrp {
+  justify-content: center;
     display: flex;
   }
   
@@ -51,9 +52,30 @@
     font-size: 24px;
   }
   
-  .work-time {
-    font-size: 14px;
-    font-weight: 300;
-    text-align: right;
-    margin-top: 10px;
+
+
+  @media (max-width: 767px){
+    .work-time {
+      text-align: center;
+      margin-top: 20px;
+      
+    }
+    
+   
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px){
+    .work-time {
+      text-align: right;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .work-time {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: right;
+      margin-top: 10px;
+    }
   }

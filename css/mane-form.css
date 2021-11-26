@@ -7,9 +7,21 @@
   align-items: center;
   height: 1000px;
 } */
+@media (max-width: 767px){
+  .mane-form {
+    width: 100;
+  }
+}
 
+@media (min-width: 768px) and (max-width: 1199px){
+  
+}
+
+@media (min-width: 1200px) {
+  
+}
 .mane-form {
-  width: 350px;
+  /* width: 350px; */
   border: 1px solid #817d7d;
   background-color: rgba(199, 195, 195, 0.2);
   border-radius: 16px;
@@ -25,7 +37,7 @@
 }
 
 .main-form__input {
-  width: 270px;
+  width: 100%;
   background-color: rgba(199, 195, 195, 0);
   border: none;
   border-bottom: 1px solid #817d7d;
