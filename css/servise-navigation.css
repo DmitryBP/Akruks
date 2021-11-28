@@ -15,7 +15,9 @@
   }  */
  
   @media (max-width: 767px){
-  
+    .servise-navigation {
+      justify-content: space-between;
+      }
 
   }
   

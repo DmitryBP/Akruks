@@ -1,32 +1,31 @@
 
-/* ////////////////////////////////////////////// Служебный код */
-
-
-
-/* @import url(../css/style.css);
-
-.container {
-    margin: 5%;
-    background-color: rgb(0, 0, 0);
-    border: 3px dashed rgba(0, 255, 85, 0.5);
-    display: flex;
-    justify-content: center;
-    height: 500px;
-  }  */
+@media (max-width: 767px){
  
+}
 
-/* //////////////////////////////////- АДРЕС */
+@media (min-width: 768px) and (max-width: 1199px){
+
+    .adres {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .adres {
+        width: 300px;
+    }
+}
 
 .adres {
-    border: 1px solid red;
     color: #C4C4C4;
     font-size: 18px;
-    width: 300px;
+
 }
 
 .adres__item {
     margin-bottom: 16px;
-    text-align: right;
+    text-align: left;
     
 }
 
