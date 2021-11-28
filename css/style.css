@@ -291,7 +291,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 435px;
+  /* min-width: 435px; */
 }
 
 .prise__button-wrp {
