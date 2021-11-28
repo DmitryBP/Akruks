@@ -82,14 +82,15 @@
 
   
   .first-display__title {
+
     margin-bottom: 50px;
-    font-size: 52px;
+    font-size: 48px;
     line-height: 60px;
     font-weight: normal;
   }
   
   .first-display__description {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 60px;
     font-weight: normal;
   }
