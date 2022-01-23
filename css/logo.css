@@ -5,18 +5,21 @@
   }
   
   .logo__img {
-    border-right: 3px solid #fff;
+    border-right: 2px solid #fff;
     padding-right: 75px;
     margin-top: auto;
     margin-bottom: auto;
     width: 45px;
-    height: 45px;
-    background-image: url(../img/Ellipse.svg);
+    height: 55px;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
   }
   
   .logo-text {
     color: #fff;
+
     display: inline-block;
     font-size: 28px;
     font-weight: bold;
